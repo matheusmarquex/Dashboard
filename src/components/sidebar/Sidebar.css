@@ -1,5 +1,5 @@
 #sidebar {
-    background: #020509;
+    background: #010813;
     grid-area: sidebar;
     overflow-y: auto;
     padding: 20px;
@@ -39,7 +39,7 @@
 }
 
 .sidebar__menu > h2 {
-    color: #3ea175;
+    color: #083272;
     font-size: 16px;
     margin-top: 15px;
     margin-bottom: 5px;
@@ -55,12 +55,12 @@
 }
 
 .active_menu_link {
-    background: rgba(62, 161, 117, 0.3);
-    color: #3ea175;
+    background: rgba(7, 48, 109, 0.3);
+    color: #03095c;
 
 }
 .active_menu_link a {
-    color: #3ea175 !important;
+    color: #021e49 !important;
 }
 .sidebar__link > a {
     text-decoration: none;
@@ -69,7 +69,7 @@
 }
 .sidebar__link a:focus{
    padding: 7px;
-   background:rgba(62, 161, 117, 0.3);
+   background:rgba(2, 24, 85, 0.3);
    border-radius: 3px;
 }
 
