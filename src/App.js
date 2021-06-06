@@ -3,6 +3,7 @@ import './App.css';
 
 import Navbar from './components/navbar/Navbar';
 import Sidebar from './components/sidebar/Sidebar';
+import Main from './components/main/Main';
 
 
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
   return (
     <div className="container">
       <Navbar/>
+      <Main/>
       <Sidebar/>
     </div>
   );
