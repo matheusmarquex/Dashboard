@@ -4,12 +4,9 @@ import avatar from '../../assets/avatar.jpg'
 
 
 
-const Navbar = ({ sidebarOpen, openSidebar }) => {
+const Navbar = () => {
     return (
         <nav className="navbar">
-            <div className="nav_icon" onClick={() => openSidebar()}>
-                <i className="fa fa-bars" aria-hidden="true"></i>
-            </div>
             <div className="navbar__left">
                 <a href="#">Produtos</a>
                 <a href="#">Usuários</a>
@@ -18,11 +15,11 @@ const Navbar = ({ sidebarOpen, openSidebar }) => {
 
             <div className="navbar__right">
                 <a href="#">
-                    <i className="fa fa_search"></i>
+                    <i className="fa fa-search"></i>
                 </a>
 
                 <a href="#">
-                    <i className="fa fa_clock-o"></i>
+                    <i className="fa fa-clock-o"></i>
                 </a>
 
                 <a href="#">
