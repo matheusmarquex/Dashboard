@@ -1,5 +1,7 @@
+
+
 main {
-    background: #f3f4f6;
+    background: #02050c;
     grid-area: main;
     overflow-y: auto;
 }
@@ -20,16 +22,18 @@ main {
 
 }
 
-.main_greeting > h1 {
-    font-size: 24px;
-    color: #2e4a66;
+.main__greeting > h1 {
+    font-size: 34px;
+    margin-left: 20px;
+    color: #ffffff;
     margin-bottom: 5px;
 }
 
-.main__greeting >g {
-    font-size: 14px;
+.main__greeting > p {
+    font-size: 20px;
+    margin-left: 25px;
     font-weight: 700;
-    color: #a5aaad;
+    color: #ffffff;
 
 }
 
@@ -47,8 +51,8 @@ main {
     height: 70px;
     padding: 25px;
     border-radius: 5px;
-    background-color: #FFF;
-    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #FFF;
+    background-color: rgb(30, 42, 63);
+    /* box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #FFF; */
 
 }
 
@@ -72,8 +76,8 @@ main {
 .charts_left{
     padding: 25px;
     border-radius: 5px;
-    background: #FFF;
-    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #FFF;
+    background-color: rgb(30, 42, 63);
+    /* box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #FFF; */
 
 }
 
@@ -111,8 +115,8 @@ main {
 .charts__right {
     padding:25px;
     border-radius: 5px;
-    background: #FFF;
-    box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #FFF;
+    background-color: rgb(30, 42, 63);
+    /* box-shadow: 5px 5px 13px #ededed, -5px -5px 13px #FFF; */
 
 }
 

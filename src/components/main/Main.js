@@ -1,6 +1,6 @@
 import hello from '../../assets/hello.svg'
 
-import Charts from '../charts/Charts'
+import Chart from '../charts/Chart'
 
 import './Main.css'
 
@@ -60,7 +60,7 @@ const Main = () => {
                             </div>
                             <i className="fa fa-usd"></i>
                         </div>
-                        <Charts />
+                        <Chart />
                     </div>
 
                     <div className="charts__right">
